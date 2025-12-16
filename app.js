@@ -7,7 +7,7 @@ const clinicalRoutes = require('./routes/clinicalRoute');
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:3000', credentials: true}));
+app.use(cors({ origin: 'https://clinicial-trails-client.vercel.app/', credentials: true}));
 app.use(bodyParser.json());
 
 app.use(express.json());
